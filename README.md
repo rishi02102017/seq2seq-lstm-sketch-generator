@@ -1,5 +1,12 @@
 <h1 align="center"> Sketch Generation from Class Name using Seq2Seq with Attention</h1>
 
+<p align="center">
+  <img src="Seq2Seq_LSTM_Banner.png" alt="Banner image" width="500"/>
+</p>
+
+---
+
+
 ## Overview
 
 This project implements a sequential generative model in PyTorch to create human-like sketches from class names using the Quick, Draw! dataset. The model mimics the way humans draw — one stroke at a time — and supports real-time visualization of stroke generation.
@@ -138,6 +145,7 @@ The model is a conditional Seq2Seq generator with attention.
 ├── model_architecture1.png   # Seq2Seq architecture with LSTM encoder-decoder and attention module
 ├── sketch.png                # Output from sketch generation
 ├── multi_object_scene.png    # Output from scene generation
+├── Seq2Seq_LSTM_Banner.png       # Banner image
 
 ```
 
