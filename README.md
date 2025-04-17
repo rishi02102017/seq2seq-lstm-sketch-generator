@@ -135,8 +135,9 @@ The model is a conditional Seq2Seq generator with attention.
 .
 ├── *.ndjson                  # Stroke data files for each class
 ├── Code.py                   # Main training + generation script
+├── model_architecture1.png   # Seq2Seq architecture with LSTM encoder-decoder and attention module
 ├── sketch.png                # Output from sketch generation
-├── scene_generated.png       # Output from scene generation
+├── multi_object_scene.png    # Output from scene generation
 
 ```
 
@@ -174,6 +175,30 @@ The model is a conditional Seq2Seq generator with attention.
 - Interactive refinement improves drawing quality with minimal effort.
 
 ---
+
+## Visual Examples
+
+### Model Architecture
+
+![Model Architecture](model_architecture1.png)
+
+*Figure: illustrates the conditional Seq2Seq architecture with LSTM encoder-decoder and attention module. Class embeddings are injected at both encoder input and decoder initialization.*
+
+
+### Sample Sketches (Single Class)
+
+![Generated Apple](sketch.png)
+
+*Figure: Generated sketches for classes Apple, Car, Donut, Ladder, Tree, and Door.*
+
+### Multi-Object Scene
+
+![Generated Scene](multi_object_scene.png)
+
+*Figure: Generated multi-object scene composed of Ladder, Donut, and Car.*
+
+---
+
 
 ## Authors
 
