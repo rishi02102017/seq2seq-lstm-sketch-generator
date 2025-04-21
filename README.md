@@ -145,7 +145,7 @@ The model is a conditional Seq2Seq generator with attention.
 ├── model_architecture1.png   # Seq2Seq architecture with LSTM encoder-decoder and attention module
 ├── sketch.png                # Output from sketch generation
 ├── multi_object_scene.png    # Output from scene generation
-├── Seq2Seq_LSTM_Banner.png       # Banner image
+├── Seq2Seq_LSTM_Banner.png   # Banner image
 
 ```
 
